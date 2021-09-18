@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+body {
+  background: hsl(233, 47%, 7%);
+}
+
+.card,
+.card__heroimgmask {
+  width: 327px;
+}
+
+.card {
+  text-align: center;
+  font-family: "Inter";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__heroimgmask {
+  background: hsl(277, 64%, 61%);
+  border-radius: 8px 8px 0 0;
+}
+
+.card__heroimg {
+  height: 240px;
+  border-radius: 8px 8px 0 0;
+  background: hsl(277, 64%, 61%);
+  background: url("./images/image-header-mobile.jpg");
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+.card__main {
+  padding: 40px 0 32px 0;
+  background: hsl(244, 38%, 16%);
+  border-radius: 0 0 8px 8px;
+}
+
+.card__heading,
+.card__subheading {
+  color: hsl(0, 0%, 100%);
+}
+
+.card__heading,
+.card__text,
+.card__listitem {
+  width: 264px;
+  margin: auto;
+}
+
+.card__heading {
+  font-size: 28px;
+  font-weight: 700;
+  height: 96px;
+  margin: 0 auto 16px auto;
+  line-height: 32px;
+}
+
+.card__heading span {
+  color: hsl(277, 64%, 61%);
+}
+
+.card__text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  height: 100px;
+  margin: 8px auto 40px auto;
+  line-height: 25px;
+}
+
+.card__text,
+.card__listitem p {
+  font-weight: 400;
+}
+
+.card__listitem {
+  height: 56px;
+  list-style-type: none;
+  margin: 24px auto 0 auto;
+}
+
+.card__subheading {
+  font-size: 24px;
+  margin: 0 auto 2px auto;
+  line-height: 29px;
+}
+
+.card__listitem p {
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca";
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.attribution {
+  color: white;
+  font-style: normal;
+}
+
+.attribution a:link {
+  color: white;
+}
+
+@media screen and (min-width: 1100px) {
+  .card {
+    width: 1100px;
+    height: 446px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card__heroimg,
+  .card__heroimgmask {
+    width: 540px;
+    height: 446px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .card__heroimg {
+    background-image: url("./images/image-header-desktop.jpg");
+  }
+
+  .card__main {
+    width: 550px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .card__heading {
+    width: 403px;
+  }
+
+  .card__text {
+    width: 374px;
+  }
+
+  .card__heading,
+  .card__text,
+  .card__listitem {
+    text-align: left;
+  }
+
+  .card__heading {
+    margin: 31px 0 0 72px;
+    height: 88px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .card__text {
+    margin: 25px 0 0 72px;
+    height: 75px;
+  }
+
+  .card__list {
+    display: flex;
+    margin: 72px 0 0 72px;
+  }
+
+  .listitem1 {
+    margin: 0 63px 0 0;
+    width: 83px;
+  }
+  .listitem2 {
+    margin: 0 60px 0 0;
+    width: 79px;
+  }
+  .listitem3 {
+    margin: 0;
+    width: 67px;
+  }
+}
