@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-component-vanilla-html-css-5eGjZSlTJ](https://www.frontendmentor.io/solutions/stats-preview-component-vanilla-html-css-5eGjZSlTJ)
+- Live Site URL: [https://axlengblom.github.io/stats-preview-card-component/](https://axlengblom.github.io/stats-preview-card-component/)
 
 ## My process
 
